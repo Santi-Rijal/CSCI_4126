@@ -26,8 +26,7 @@ public class Player : MonoBehaviour {
         if (Accelerometer.current.enabled) {
             var acceleration = Accelerometer.current.acceleration.ReadValue();
 
-            var moveDirection = new Vector3(acceleration.x * (playerSpeed * Time.deltaTime), 0f,
-                -acceleration.z * (playerSpeed * Time.deltaTime));
+            var moveDirection = new Vector3(acceleration.x * (playerSpeed * Time.deltaTime), 0f, -acceleration.z * (playerSpeed * Time.deltaTime));
             var transformedDirection = transform.TransformDirection(moveDirection);
 
             _characterController.Move(transformedDirection);
