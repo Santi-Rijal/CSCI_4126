@@ -9,6 +9,8 @@ EditorBuildSettings:
     path: Assets/Scenes/MainScene.unity
     guid: c850ee8c3b14cc8459e7e186857cf567
   m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: fa1845e3bcc7f46d2b551f3dc33f4c1e,
+      type: 2}
     com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000,
       guid: 7db9307550adf4a1182a6e12588b3b47, type: 2}
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 19094926861e94b049277f2b55cbf964,
@@ -17,3 +19,7 @@ EditorBuildSettings:
       guid: 67a588ad8bb24476587e5dc464e682d6, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000,
       guid: 0a28e153f8a3d4f8f8ba622478cfaedd, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 0a3d2ee60f4b240bf87a928123d413ab,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: a331f463e39aa47cdb3ead8680857448,
+      type: 2}
