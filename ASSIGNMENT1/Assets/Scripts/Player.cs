@@ -22,18 +22,17 @@ public class Player : MonoBehaviour {
     }
 
     private void Update() {
-        //HandleMove();
-        StepsUpdate();
+        HandleMove();
     }
 
     private void HandleMove() {
         if (Accelerometer.current.enabled) {
-            Vector3 acceleration = Accelerometer.current.acceleration.ReadValue();
+            var moveHorizontal = Input.acceleration.x;
+            var moveVertical = -Input.acceleration.z;
 
-            Vector3 moveDirection = new(acceleration.x * playerSpeed * Time.deltaTime, 0, -acceleration.z * playerSpeed * Time.deltaTime);
-            Vector3 transformedDirection = transform.TransformDirection(moveDirection);
+            var movement = new Vector3(moveHorizontal, 0.0f, moveVertical) * (playerSpeed * Time.deltaTime);
 
-            _characterController.Move(transformedDirection);
+            _characterController.Move(movement);
         }
     }
 
