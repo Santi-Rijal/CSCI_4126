@@ -1,2 +1,3 @@
-# CSCI_4126
-Ubicomp
+# CSCI_4126: Ubicomp
+
+## Git-Hub link: 

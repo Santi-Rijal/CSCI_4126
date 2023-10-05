@@ -5,10 +5,233 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06dca94a-c157-4054-b8cc-61d52eff19d3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/Demo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/Demo/DemoScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/Demo/DemoScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground1/New Lighting Settings.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground1/New Lighting Settings.lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground1/ground1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground1/ground1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground1/ground1_Ambient_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground1/ground1_Ambient_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground1/ground1_Diffuse.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground1/ground1_Diffuse.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground1/ground1_Height.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground1/ground1_Height.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground1/ground1_Metallic.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground1/ground1_Metallic.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground1/ground1_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground1/ground1_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground10.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground10/ground10.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground10/ground10.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground10/ground10_Ambient_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground10/ground10_Ambient_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground10/ground10_Diffuse.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground10/ground10_Diffuse.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground10/ground10_Height.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground10/ground10_Height.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground10/ground10_Metallic.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground10/ground10_Metallic.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground10/ground10_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground10/ground10_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground11.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground11/ground11.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground11/ground11.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground11/ground11_Ambient_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground11/ground11_Ambient_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground11/ground11_Diffuse.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground11/ground11_Diffuse.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground11/ground11_Height.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground11/ground11_Height.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground11/ground11_Metallic.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground11/ground11_Metallic.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground11/ground11_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground11/ground11_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground12.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground12/ground12.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground12/ground12.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground12/ground12_Ambient_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground12/ground12_Ambient_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground12/ground12_Diffuse.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground12/ground12_Diffuse.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground12/ground12_Height.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground12/ground12_Height.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground12/ground12_Metallic.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground12/ground12_Metallic.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground12/ground12_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground12/ground12_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground13.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground13/ground13.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground13/ground13.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground13/ground13_Ambient_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground13/ground13_Ambient_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground13/ground13_Diffuse.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground13/ground13_Diffuse.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground13/ground13_Height.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground13/ground13_Height.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground13/ground13_Metallic.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground13/ground13_Metallic.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground13/ground13_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground13/ground13_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground14.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground14/ground14.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground14/ground14.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground14/ground14_Ambient_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground14/ground14_Ambient_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground14/ground14_Diffuse.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground14/ground14_Diffuse.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground14/ground14_Height.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground14/ground14_Height.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground14/ground14_Metallic.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground14/ground14_Metallic.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground14/ground14_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground14/ground14_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground2/ground2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground2/ground2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground2/ground2_Ambient_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground2/ground2_Ambient_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground2/ground2_Diffuse.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground2/ground2_Diffuse.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground2/ground2_Height.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground2/ground2_Height.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground2/ground2_Metallic.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground2/ground2_Metallic.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground2/ground2_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground2/ground2_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground3/ground3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground3/ground3.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground3/ground3_Ambient_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground3/ground3_Ambient_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground3/ground3_Diffuse.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground3/ground3_Diffuse.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground3/ground3_Height.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground3/ground3_Height.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground3/ground3_Metallic.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground3/ground3_Metallic.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground3/ground3_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground3/ground3_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground4.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground4/ground4.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground4/ground4.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground4/ground4_Ambient_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground4/ground4_Ambient_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground4/ground4_Diffuse.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground4/ground4_Diffuse.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground4/ground4_Height.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground4/ground4_Height.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground4/ground4_Metallic.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground4/ground4_Metallic.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground4/ground4_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground4/ground4_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground5.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground5/ground5.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground5/ground5.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground5/ground5_Ambient_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground5/ground5_Ambient_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground5/ground5_Diffuse.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground5/ground5_Diffuse.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground5/ground5_Height.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground5/ground5_Height.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground5/ground5_Metallic.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground5/ground5_Metallic.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground5/ground5_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground5/ground5_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground6.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground6/ground6.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground6/ground6.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground6/ground6_Ambient_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground6/ground6_Ambient_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground6/ground6_Diffuse.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground6/ground6_Diffuse.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground6/ground6_Height.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground6/ground6_Height.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground6/ground6_Metallic.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground6/ground6_Metallic.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground6/ground6_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground6/ground6_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground7.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground7/ground7.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground7/ground7.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground7/ground7_Ambient_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground7/ground7_Ambient_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground7/ground7_Diffuse.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground7/ground7_Diffuse.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground7/ground7_Height.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground7/ground7_Height.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground7/ground7_Metallic.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground7/ground7_Metallic.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground7/ground7_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground7/ground7_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground8.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground8/ground8.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground8/ground8.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground8/ground8_Ambient_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground8/ground8_Ambient_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground8/ground8_Diffuse.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground8/ground8_Diffuse.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground8/ground8_Height.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground8/ground8_Height.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground8/ground8_Metallic.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground8/ground8_Metallic.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground8/ground8_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground8/ground8_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground9.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground9/ground9.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground9/ground9.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground9/ground9_Ambient_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground9/ground9_Ambient_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground9/ground9_Diffuse.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground9/ground9_Diffuse.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground9/ground9_Height.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground9/ground9_Height.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground9/ground9_Metallic.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground9/ground9_Metallic.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground9/ground9_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ADG_Textures/ground_vol1/ground9/ground9_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Readme.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Readme.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GyroManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GyroManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SpawnManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SpawnManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Icons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Icons/Help_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Icons/Help_Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Icons/Mobile 3D.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Icons/Mobile 3D.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Layout.wlt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Layout.wlt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Readme.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Readme.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XR/Loaders.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XR/Loaders/ARCoreLoader.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XR/Loaders/ARCoreLoader.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XR/Loaders/SimulationLoader.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XR/Loaders/SimulationLoader.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XR/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XR/Resources/XRSimulationRuntimeSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XR/Resources/XRSimulationRuntimeSettings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XR/Settings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XR/Settings/ARCoreSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XR/Settings/ARCoreSettings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XR/Settings/XRSimulationSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XR/Settings/XRSimulationSettings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XR/UserSimulationSettings/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XR/UserSimulationSettings/Resources/XRSimulationPreferences.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XR/UserSimulationSettings/Resources/XRSimulationPreferences.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XR/UserSimulationSettings/SimulationEnvironmentAssetsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XR/UserSimulationSettings/SimulationEnvironmentAssetsManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XR/XRGeneralSettingsPerBuildTarget.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XR/XRGeneralSettingsPerBuildTarget.asset.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,14 +250,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "cidr.known.project.marker": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
