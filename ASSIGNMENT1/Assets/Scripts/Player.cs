@@ -1,28 +1,50 @@
 using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.UI;
-using Gyroscope = UnityEngine.Gyroscope;
+using TMPro;
+using UnityEngine.Android;
 
 public class Player : MonoBehaviour {
     
     [SerializeField] private float playerSpeed = 3f;
+    [SerializeField] private TextMeshProUGUI displaySteps;
 
     private int _steps;
     private CharacterController _characterController;
-    private Text _displaySteps;
+    private Vector3 _moveDirection;
+    private float _gravity = 10f;
+    
+    private string _text = "Steps: " + 0;
     
     private void Awake() {
         if (SystemInfo.supportsAccelerometer) InputSystem.EnableDevice(Accelerometer.current);
+        
         InputSystem.EnableDevice(StepCounter.current);
 
         _characterController = GetComponent<CharacterController>();
         _steps = 0;
         
+        displaySteps.SetText(_text);
+    }
+    
+    private void Start() {
+        if (!Permission.HasUserAuthorizedPermission("android.permission.BODY_SENSORS")) {
+            Permission.RequestUserPermission("android.permission.BODY_SENSORS");
+        }
     }
 
     private void Update() {
+        var isGrounded = IsGrounded();
+        
+        if (!isGrounded) {
+            _moveDirection.y -= _gravity * Time.deltaTime;
+        }
+        else {
+            _moveDirection.y = -1f;
+        }
+        
         HandleMove();
+        StepsUpdate();
     }
 
     private void HandleMove() {
@@ -30,23 +52,27 @@ public class Player : MonoBehaviour {
             var moveHorizontal = Input.acceleration.x;
             var moveVertical = -Input.acceleration.z;
 
-            var movement = new Vector3(moveHorizontal, 0.0f, moveVertical) * (playerSpeed * Time.deltaTime);
+            _moveDirection = new Vector3(moveHorizontal, _moveDirection.y, moveVertical) * (playerSpeed * Time.deltaTime);
 
-            _characterController.Move(movement);
+            _characterController.Move(_moveDirection);
         }
+    }
+    
+    private bool IsGrounded() {
+        return _characterController.isGrounded;
     }
 
     private void StepsUpdate() {
         bool isNotNullAndIsEnabled = StepCounter.current != null && StepCounter.current.enabled;
-
+        
         if (isNotNullAndIsEnabled) {
             var currentSteps = StepCounter.current.stepCounter.ReadValue();
             
-            Debug.Log(currentSteps);
-            
             if (currentSteps > _steps) {
                 _steps = currentSteps;
-                _displaySteps.text = "Steps: " + _steps;
+                
+                _text = "Steps: " + _steps;
+                displaySteps.SetText(_text);
             }
         }
     }
