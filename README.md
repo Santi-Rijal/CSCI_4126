@@ -2,6 +2,21 @@
 
 ## Git-Hub link: https://github.com/Santi-Rijal/CSCI_4126
 
+## Instructions
+
+### Character Movement:
+
+1) Tilt the phone forward/backward to move the character forward/backward.
+2) Tilt the phone left/right to move the character left/right.
+
+### Camera Rotation
+
+1) Turn the phone left/right to rotate or your body while facing the phone.
+
+### Zoom
+
+1) Do a pinch gesture to zoom-in/zoom-out.
+
 ## Sources
 
 ### Assets:
