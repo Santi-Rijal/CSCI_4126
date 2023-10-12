@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/MainScene.unity
     guid: c850ee8c3b14cc8459e7e186857cf567
   m_configObjects:
-    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: fa1845e3bcc7f46d2b551f3dc33f4c1e,
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: c71799215bdf344c8829bce351a91dad,
       type: 2}
     com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000,
       guid: 7db9307550adf4a1182a6e12588b3b47, type: 2}
