@@ -26,8 +26,10 @@ public class GyroManager : MonoBehaviour {
 
     // With the phone being held in portrait mode, the Y is left and right and X is up and down.
     private void CameraRotation() {
-        var rotateHorizontal = _gyroscope.rotationRateUnbiased.y;   // Get rotation measured by the gyro.
-        transform.Rotate(Vector3.up, rotateHorizontal * ROTATION_SPEED);    // Rotate the camera in Y.
+        if (_gyroscope != null && _gyroscope.enabled) {
+            var rotateHorizontal = _gyroscope.rotationRateUnbiased.y;   // Get rotation measured by the gyro.
+            transform.Rotate(Vector3.up, rotateHorizontal * ROTATION_SPEED);    // Rotate the camera in Y.
+        }
     }
 
     // If the user uses 2 fingers in a zoom gesture, make the camera zoom in or out.
