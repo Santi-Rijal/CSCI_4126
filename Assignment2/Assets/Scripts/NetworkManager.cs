@@ -1,4 +1,3 @@
-using System;
 using Riptide;
 using Riptide.Utils;
 using UnityEngine;
