@@ -1,3 +1,4 @@
+using System;
 using Riptide;
 using Riptide.Utils;
 using UnityEngine;
@@ -35,6 +36,8 @@ public class NetworkManager : MonoBehaviour {
         Server = new Server();
         Server.Start(port, maxClientCount);
     }
+
+    
 
     private void FixedUpdate() {
         Server.Update();

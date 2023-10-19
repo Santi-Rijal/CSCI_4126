@@ -1,4 +1,5 @@
 using UnityEngine;
+using Riptide;
 
 // Class to handle the camera rotation using gyroscope.
 public class GyroManager : MonoBehaviour {
@@ -57,6 +58,10 @@ public class GyroManager : MonoBehaviour {
             // field of view within max zoom 60 and min zoom 20.
             camera.fieldOfView += pinchDelta * ZOOM_SPEED;
             camera.fieldOfView = Mathf.Clamp(camera.fieldOfView, 20, 60);
+            
+            Message message = Message.Create(MessageSendMode.Reliable, ClientToServerId.name);
+            message.Add("Zoom");
+            NetworkManager.Singleton.Client.Send(message);
         }
     }
 }
