@@ -57,14 +57,22 @@ public class NetworkManager : MonoBehaviour {
     }
     
     private void DidConnect(object sender, EventArgs e) {
-        UIManager.Singleton.SendName();
+        Message message = Message.Create(MessageSendMode.Reliable, ClientToServerId.name);
+        message.Add("Connected");
+        Client.Send(message);
     }
 
     private void FailedToConnect(object sender, EventArgs e) {
+        Message message = Message.Create(MessageSendMode.Reliable, ClientToServerId.name);
+        message.Add("Failed to connect");
+        Client.Send(message);
         UIManager.Singleton.BackToMain();
     }
     
     private void DidDisconnect(object sender, EventArgs e) {
+        Message message = Message.Create(MessageSendMode.Reliable, ClientToServerId.name);
+        message.Add("Disconnected");
+        Client.Send(message);
         UIManager.Singleton.BackToMain();
     }
 }

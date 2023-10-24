@@ -1,4 +1,4 @@
-using System;
+using TMPro;
 using Riptide;
 using Riptide.Utils;
 using UnityEngine;
@@ -25,6 +25,7 @@ public class NetworkManager : MonoBehaviour {
 
     [SerializeField] private ushort port;
     [SerializeField] private ushort maxClientCount;
+    [SerializeField] private TextMeshProUGUI text;
 
     private void Awake() {
         _singleton = this;
@@ -40,18 +41,9 @@ public class NetworkManager : MonoBehaviour {
     }
 
     private void ServerOnMessageReceived(object sender, MessageReceivedEventArgs e) {
-        var someString = e.Message.GetString();
-    
-        print(someString);
+        var interactionName = e.Message.GetString();
+        text.SetText(interactionName);
     }
-
-    // [MessageHandler(1)]
-    // private static void HandleSomeMessageFromClient(ushort clientId, Message message) {
-    //     var someString = message.GetString();
-    //
-    //     print(clientId);
-    //     print(someString);
-    // }
 
     private void FixedUpdate() {
         Server.Update();

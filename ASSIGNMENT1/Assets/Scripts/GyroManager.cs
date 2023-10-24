@@ -29,11 +29,19 @@ public class GyroManager : MonoBehaviour {
     private void CameraRotation() {
         if (_gyroscope != null && _gyroscope.enabled) {
             var rotateHorizontal = _gyroscope.rotationRateUnbiased.y;   // Get rotation measured by the gyro.
-            transform.Rotate(Vector3.up, rotateHorizontal * ROTATION_SPEED);    // Rotate the camera in Y.
             
-            Message message = Message.Create(MessageSendMode.Reliable, ClientToServerId.name);
-            message.Add("Gyroscope");
-            NetworkManager.Singleton.Client.Send(message);
+            if (rotateHorizontal > 0.5 || rotateHorizontal < -0.5) {
+                transform.Rotate(Vector3.up, rotateHorizontal * ROTATION_SPEED);    // Rotate the camera in Y.
+                
+                Message message = Message.Create(MessageSendMode.Reliable, ClientToServerId.name);
+                message.Add("Gyroscope");
+                NetworkManager.Singleton.Client.Send(message);
+            } 
+            else {
+                Message message = Message.Create(MessageSendMode.Reliable, ClientToServerId.name);
+                message.Add("Idle");
+                NetworkManager.Singleton.Client.Send(message);
+            }
         }
     }
 

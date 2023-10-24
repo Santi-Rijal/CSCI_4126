@@ -5,6 +5,8 @@ public class UIManager : MonoBehaviour {
     
     private static UIManager _singleton;
     
+    [SerializeField] private TextMeshProUGUI text;
+    
     public static UIManager Singleton {
         get => _singleton;
 
@@ -18,8 +20,6 @@ public class UIManager : MonoBehaviour {
             }
         }
     }
-
-    [SerializeField] private TextMeshPro text;
 
     public void ShowInteraction(string interactionName) {
         text.SetText(interactionName);

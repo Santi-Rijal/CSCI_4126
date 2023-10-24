@@ -1,4 +1,3 @@
-using Riptide;
 using UnityEngine;
 
 public class UIManager : MonoBehaviour {
@@ -7,6 +6,7 @@ public class UIManager : MonoBehaviour {
     
     [SerializeField] private Transform spawnPoint;
     [SerializeField] private GameObject player;
+    [SerializeField] private GameObject connectUI;
     
     public static UIManager Singleton {
         get => _singleton;
@@ -21,9 +21,7 @@ public class UIManager : MonoBehaviour {
             }
         }
     }
-
-    [SerializeField] private GameObject connectUI;
-
+    
     private void Awake() {
         _singleton = this;
     }
@@ -37,11 +35,5 @@ public class UIManager : MonoBehaviour {
     public void BackToMain() {
         connectUI.SetActive(true);
         Destroy(player);
-    }
-
-    public void SendName() {
-        Message message = Message.Create(MessageSendMode.Reliable, ClientToServerId.name);
-        message.Add("User");
-        NetworkManager.Singleton.Client.Send(message);
     }
 }

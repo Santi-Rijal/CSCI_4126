@@ -59,13 +59,22 @@ public class Player : MonoBehaviour {
             var moveHorizontal = Input.acceleration.x;
             var moveVertical = -Input.acceleration.z;
 
+            var oldPosition = transform.position;
+
             _moveDirection = new Vector3(moveHorizontal, _moveDirection.y, moveVertical) * (playerSpeed * Time.deltaTime);
-
             _characterController.Move(_moveDirection);
+            
+            var newPosition = transform.position;
 
-            if (_moveDirection != Vector3.zero) {
+            if (Vector3.Distance(oldPosition, newPosition) > 0.1) {
+                
                 Message message = Message.Create(MessageSendMode.Reliable, ClientToServerId.name);
                 message.Add("Accelerometer");
+                NetworkManager.Singleton.Client.Send(message);
+            }
+            else {
+                Message message = Message.Create(MessageSendMode.Reliable, ClientToServerId.name);
+                message.Add("Idle");
                 NetworkManager.Singleton.Client.Send(message);
             }
             
