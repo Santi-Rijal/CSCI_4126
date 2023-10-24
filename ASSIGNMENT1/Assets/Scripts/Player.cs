@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using TMPro;
 using UnityEngine.Android;
+using Riptide;
 
 // Class to handle player movement and user steps.
 public class Player : MonoBehaviour {
@@ -61,6 +62,13 @@ public class Player : MonoBehaviour {
             _moveDirection = new Vector3(moveHorizontal, _moveDirection.y, moveVertical) * (playerSpeed * Time.deltaTime);
 
             _characterController.Move(_moveDirection);
+
+            if (_moveDirection != Vector3.zero) {
+                Message message = Message.Create(MessageSendMode.Reliable, ClientToServerId.name);
+                message.Add("Accelerometer");
+                NetworkManager.Singleton.Client.Send(message);
+            }
+            
         }
         else {
             InputSystem.EnableDevice(Accelerometer.current);
@@ -87,6 +95,10 @@ public class Player : MonoBehaviour {
                 _steps = currentSteps;
                 _text = "Steps: " + _steps;
                 displaySteps.SetText(_text);
+                
+                Message message = Message.Create(MessageSendMode.Reliable, ClientToServerId.name);
+                message.Add("Step Counter");
+                NetworkManager.Singleton.Client.Send(message);
             }
         }
         else {

@@ -30,6 +30,10 @@ public class GyroManager : MonoBehaviour {
         if (_gyroscope != null && _gyroscope.enabled) {
             var rotateHorizontal = _gyroscope.rotationRateUnbiased.y;   // Get rotation measured by the gyro.
             transform.Rotate(Vector3.up, rotateHorizontal * ROTATION_SPEED);    // Rotate the camera in Y.
+            
+            Message message = Message.Create(MessageSendMode.Reliable, ClientToServerId.name);
+            message.Add("Gyroscope");
+            NetworkManager.Singleton.Client.Send(message);
         }
     }
 
