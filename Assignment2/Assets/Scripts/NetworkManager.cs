@@ -35,9 +35,23 @@ public class NetworkManager : MonoBehaviour {
 
         Server = new Server();
         Server.Start(port, maxClientCount);
+        
+        Server.MessageReceived += ServerOnMessageReceived;
     }
 
+    private void ServerOnMessageReceived(object sender, MessageReceivedEventArgs e) {
+        var someString = e.Message.GetString();
     
+        print(someString);
+    }
+
+    // [MessageHandler(1)]
+    // private static void HandleSomeMessageFromClient(ushort clientId, Message message) {
+    //     var someString = message.GetString();
+    //
+    //     print(clientId);
+    //     print(someString);
+    // }
 
     private void FixedUpdate() {
         Server.Update();
