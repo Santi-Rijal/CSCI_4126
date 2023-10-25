@@ -55,6 +55,8 @@
 1) With the phone move around for a while.
 2) The "Steps" text in red should get updated.
 3) Doing this will display "Step Counter" on the server screen.
+4) It gets overridden very fast my other sensors so you might not notice it.
+5) You can check by looking at the logs, i am also printing what gets displayed on server.
 
 ## Sources
 
