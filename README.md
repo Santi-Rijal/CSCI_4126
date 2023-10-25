@@ -9,7 +9,7 @@
 ### *MAKE SURE YOU ARE RUNNING BOTH THE CLIENT AND SERVER ON THE SAME NETWORK*
 
 ### Setup
-1) Have the Assignment2.exe file running (Included in the Zip submission, it's inside the Server.zip file in Server folder).
+1) Have the Assignment2.exe file running (Included in the Zip submission, it's inside the Server folder).
 2) Clone the repo to your local machine.
 3) Open ASSIGNMENT1 folder in unity
 4) If it doesn't open the Client scene directly open it through the project directory under Scenes.
