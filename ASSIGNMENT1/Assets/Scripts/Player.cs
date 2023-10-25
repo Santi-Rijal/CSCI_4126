@@ -58,25 +58,14 @@ public class Player : MonoBehaviour {
         if (Accelerometer.current.enabled) {
             var moveHorizontal = Input.acceleration.x;
             var moveVertical = -Input.acceleration.z;
-
-            var oldPosition = transform.position;
-
+            
             _moveDirection = new Vector3(moveHorizontal, _moveDirection.y, moveVertical) * (playerSpeed * Time.deltaTime);
             _characterController.Move(_moveDirection);
             
-            var newPosition = transform.position;
-
-            if (Vector3.Distance(oldPosition, newPosition) > 0.1) {
-                
-                Message message = Message.Create(MessageSendMode.Reliable, ClientToServerId.name);
-                message.Add("Accelerometer");
-                NetworkManager.Singleton.Client.Send(message);
-            }
-            else {
-                Message message = Message.Create(MessageSendMode.Reliable, ClientToServerId.name);
-                message.Add("Idle");
-                NetworkManager.Singleton.Client.Send(message);
-            }
+            // Send message to server when player is moving.
+            Message message = Message.Create(MessageSendMode.Reliable, ClientToServerId.name);
+            message.Add("Accelerometer");
+            NetworkManager.Singleton.Client.Send(message);
             
         }
         else {
@@ -105,6 +94,7 @@ public class Player : MonoBehaviour {
                 _text = "Steps: " + _steps;
                 displaySteps.SetText(_text);
                 
+                // Send message to server when user is moving.
                 Message message = Message.Create(MessageSendMode.Reliable, ClientToServerId.name);
                 message.Add("Step Counter");
                 NetworkManager.Singleton.Client.Send(message);

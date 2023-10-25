@@ -30,18 +30,15 @@ public class GyroManager : MonoBehaviour {
         if (_gyroscope != null && _gyroscope.enabled) {
             var rotateHorizontal = _gyroscope.rotationRateUnbiased.y;   // Get rotation measured by the gyro.
             
+            // If the gyroscope movement is bigger then 0.5 or smaller than 0.5 rotate camera.
             if (rotateHorizontal > 0.5 || rotateHorizontal < -0.5) {
                 transform.Rotate(Vector3.up, rotateHorizontal * ROTATION_SPEED);    // Rotate the camera in Y.
                 
+                // Send gyroscope message to server.
                 Message message = Message.Create(MessageSendMode.Reliable, ClientToServerId.name);
                 message.Add("Gyroscope");
                 NetworkManager.Singleton.Client.Send(message);
             } 
-            else {
-                Message message = Message.Create(MessageSendMode.Reliable, ClientToServerId.name);
-                message.Add("Idle");
-                NetworkManager.Singleton.Client.Send(message);
-            }
         }
     }
 
@@ -71,6 +68,7 @@ public class GyroManager : MonoBehaviour {
             camera.fieldOfView += pinchDelta * ZOOM_SPEED;
             camera.fieldOfView = Mathf.Clamp(camera.fieldOfView, 20, 60);
             
+            // Send zoom message to server.
             Message message = Message.Create(MessageSendMode.Reliable, ClientToServerId.name);
             message.Add("Zoom");
             NetworkManager.Singleton.Client.Send(message);
