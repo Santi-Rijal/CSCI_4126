@@ -2,18 +2,21 @@
 
 ## Git-Hub link: https://github.com/Santi-Rijal/CSCI_4126/tree/Assignment2
 
+#### ASSIGNMENT1 folder is Client and Assignment2 folder is Server
+
 ## Instructions
 
 ### *MAKE SURE YOU ARE RUNNING BOTH THE CLIENT AND SERVER ON THE SAME NETWORK*
 
 ### Setup
-1) Clone the repo to your local machine.
-2) Open ASSIGNMENT1 folder in unity
-3) If it doesn't open the Client scene directly open it through the project directory under Scenes.
-4) Click on the NetworkManager object on the hierarchy.
-5) On the Inspector in the Network Manager script, enter your IP in the Ip field.
-6) Have the Server.exe file running (Included in the Zip submission).
-7) Build and run the Client.
+1) Have the Assignment2.exe file running (Included in the Zip submission, it's inside the Server.zip file in Server folder).
+2) Clone the repo to your local machine.
+3) Open ASSIGNMENT1 folder in unity
+4) If it doesn't open the Client scene directly open it through the project directory under Scenes.
+5) Click on the NetworkManager object on the hierarchy.
+6) On the Inspector in the Network Manager script, enter your IP in the Ip field.
+7) Save
+8) Build and run the Client.
 
 ### IP on Windows
 1) Select Start > Settings > Network & internet > Wi-Fi and then select the Wi-Fi network you're connected to.
